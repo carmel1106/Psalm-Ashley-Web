@@ -1,0 +1,137 @@
+element.style {
+}
+<style>
+@media (min-width: 768px) {
+    .background-width--inset .fe-b84bcbyirq {
+        --inset-padding: calc(var(--sqs-site-gutter) * 2);
+    }
+}
+.sqs-edit-mode-active .fluid-engine {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+<style>
+@media (min-width: 768px) {
+    .fe-b84bcbyirq {
+        grid-template-rows: repeat(31, minmax(var(--unstretched-row-height), auto));
+        grid-template-columns: minmax(var(--grid-gutter), 1fr) repeat(24, minmax(0, var(--cell-max-width))) minmax(var(--grid-gutter), 1fr);
+    }
+}
+<style>
+@media (min-width: 768px) {
+    .fe-b84bcbyirq {
+        --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11px);
+        --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11px * 23) ) / 24 );
+        --inset-padding: 0vw;
+        --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
+        --unstretched-row-height: calc(var(--container-width) * 0.0215);
+    }
+}
+<style>
+.fe-b84bcbyirq {
+    display: grid;
+    position: relative;
+    grid-area: 1 / 1 / -1 / -1;
+    grid-template-rows: repeat(33, minmax(var(--unstretched-row-height), auto));
+    grid-template-columns: minmax(var(--grid-gutter), 1fr) repeat(8, minmax(0, var(--cell-max-width))) minmax(var(--grid-gutter), 1fr);
+    row-gap: var(--row-gap);
+    column-gap: 11px;
+}
+<style>
+.fe-b84bcbyirq {
+    --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11px);
+    --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - ( 11px * 7) ) / 8 );
+    --row-gap: 11px;
+    --unstretched-row-height: 24px;
+}
+div[Attributes Style] {
+    -webkit-user-drag: element;
+    user-select: none;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+style attribute {
+    padding-top: 72.5625px;
+    user-select: none;
+    --header-offset: 72.5625px;
+}
+.page-section {
+    color: var(--paragraphMediumColor);
+}
+[data-section-theme="dark"] {
+    --announcement-bar-background-color: hsla(var(--lightAccent-hsl),1);
+    --announcement-bar-text-color: hsla(var(--black-hsl),1);
+    --backgroundOverlayColor: hsla(var(--darkAccent-hsl),1);
+    --course-item-nav-active-lesson-background-color: hsla(var(--lightAccent-hsl),1);
+    --course-item-nav-active-lesson-text-color: hsla(var(--black-hsl),1);
+    --course-item-nav-background-color: hsla(var(--black-hsl),1);
+    --course-item-nav-border-color: hsla(var(--white-hsl),.25);
+    --course-item-nav-text-color: hsla(var(--white-hsl),1);
+    --course-list-course-progress-bar-color: hsla(var(--accent-hsl),1);
+    --course-list-course-item-background: hsla(var(--white-hsl),1);
+    --course-list-course-item-hover-background: hsla(var(--white-hsl),.9);
+    --course-list-course-item-text-color: hsla(var(--black-hsl),1);
+    --course-list-course-chapter-divider-color: hsla(var(--accent-hsl),1);
+    --course-list-grid-layout-chapter-divider-color: hsla(var(--white-hsl),1);
+    --course-list-grid-layout-course-item-background-color: hsla(var(--white-hsl),1);
+    --course-list-grid-layout-course-item-hover-background-color: hsla(var(--white-hsl),.9);
+    --course-list-grid-layout-course-item-text-color: hsla(var(--black-hsl),1);
+    --course-list-grid-layout-course-item-border-color: hsla(var(--accent-hsl),1);
+    --donation-block-background-color: hsla(var(--white-hsl),1);
+    --donation-block-stroke-color: hsla(var(--safeLightAccent-hsl),1);
+    --gradientHeaderBackgroundColor: hsla(var(--white-hsl),1);
+    --gradientHeaderBorderColor: hsla(var(--black-hsl),1);
+    --gradientHeaderDropShadowColor: hsla(var(--black-hsl),1);
+    --gradientHeaderNavigationColor: hsla(var(--black-hsl),1);
+    --headerDropShadowColor: hsla(var(--black-hsl),1);
+    --headerBorderColor: hsla(var(--black-hsl),1);
+    --headingExtraLargeColor: hsla(var(--white-hsl),1);
+    --headingLargeColor: hsla(var(--white-hsl),1);
+    --headingLinkColor: hsla(var(--lightAccent-hsl),1);
+    --headingMediumColor: hsla(var(--white-hsl),1);
+    --headingSmallColor: hsla(var(--white-hsl),1);
+    --image-block-card-image-button-bg-color: hsla(var(--safeLightAccent-hsl),1);
+    --image-block-card-image-button-text-color: hsla(var(--safeInverseLightAccent-hsl),1);
+    --image-block-card-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-card-image-subtitle-color: hsla(var(--white-hsl),1);
+    --image-block-card-image-title-bg-color: hsla(var(--darkAccent-hsl),0);
+    --image-block-card-image-title-color: hsla(var(--white-hsl),1);
+    --image-block-card-inline-link-color: hsla(var(--white-hsl),1);
+    --image-block-collage-background-color: hsla(var(--white-hsl),1);
+    --image-block-collage-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-collage-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-collage-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-collage-image-subtitle-color: hsla(var(--black-hsl),1);
+    --image-block-collage-image-title-bg-color: hsla(var(--darkAccent-hsl),0);
+    --image-block-collage-image-title-color: hsla(var(--black-hsl),1);
+    --image-block-collage-inline-link-color: hsla(var(--black-hsl),1);
+    --image-block-overlap-image-button-bg-color: hsla(var(--safeLightAccent-hsl),1);
+    --image-block-overlap-image-button-text-color: hsla(var(--safeInverseLightAccent-hsl),1);
+    --image-block-overlap-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-overlap-image-subtitle-color: hsla(var(--white-hsl),1);
+Show All Properties (269 more)
+}
+style attribute {
+    --header-scrim-top-spacing: 73px;
+}
+.sqs-jacquard .sections.sqs-frontend-overlay-editor-widget-host {
+    --header-scrim-top-spacing: 0;
+}
+@media screen and (min-width: 768px), screen and (max-width: calc(1511px)) and (orientation: landscape) {
+    .site-wrapper, .sqs-catalog-item-list {
+        font-size: calc((var(--normal-text-size-value) - 1) * 1.2vw + 1rem);
+    }
+}
+.site-wrapper, .sqs-catalog-item-list {
+    font-family: var(--body-font-font-family);
+    font-style: var(--body-font-font-style);
+    font-weight: var(--body-font-font-weight);
+    line-height: var(--body-font-line-height);
+    letter-spacing: var(--body-font-letter-spacing);
+    text-transform: var(--body-font-text-transform);
+    -webkit-font-smoothing: antialiased;
+}
